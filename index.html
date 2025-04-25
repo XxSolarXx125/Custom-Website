@@ -3,31 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Custom Website Generator</title>
+  <title>Custom Website Builder</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to the Custom Website Generator</h1>
-    <p>Create your very own website!</p>
-
-    <!-- Form to input website details -->
-    <div class="form-container">
-      <input type="text" id="site-title" placeholder="Enter your website title" />
-      <textarea id="site-description" placeholder="Enter a description for your website"></textarea>
-      <button id="generate-site">Generate My Website</button>
-    </div>
-
-    <div id="generated-website" class="hidden">
-      <h2>Your Custom Website</h2>
-      <div id="custom-site-container">
-        <h3 id="custom-title"></h3>
-        <p id="custom-description"></p>
-      </div>
-      <button id="download">Download My Website</button>
-    </div>
+    <header>
+      <button id="create-website">Create My Website</button>
+      <button id="my-website" class="hidden">My Website</button>
+    </header>
+    <main>
+      <h1>Welcome to the Custom Website Builder</h1>
+      <p>Click the button below to start designing your own website!</p>
+    </main>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
