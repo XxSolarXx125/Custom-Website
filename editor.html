@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Editor</title>
+  <link rel="stylesheet" href="editor-styles.css">
+</head>
+<body>
+  <div class="editor-container">
+    <h1>Customize Your Website</h1>
+    
+    <!-- Form to customize the website -->
+    <input type="text" id="website-title" placeholder="Website Title">
+    <textarea id="website-description" placeholder="Description"></textarea>
+
+    <label for="background-color">Background Color:</label>
+    <input type="color" id="background-color" value="#1e1e1e">
+
+    <label for="text-color">Text Color:</label>
+    <input type="color" id="text-color" value="#cccccc">
+
+    <button id="add-image">Add Image</button>
+
+    <div id="image-preview"></div>
+    
+    <button id="save-website">Save My Website</button>
+  </div>
+
+  <script src="editor-script.js"></script>
+</body>
+</html>
