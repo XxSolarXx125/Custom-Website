@@ -24,6 +24,20 @@ h1 {
   margin-bottom: 20px;
 }
 
+h3, p {
+  color: #f0f0f0;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
 button {
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -32,7 +46,7 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin: 10px;
+  margin-top: 10px;
   border-radius: 5px;
 }
 
@@ -40,19 +54,18 @@ button:hover {
   background-color: #45a049;
 }
 
-.animated-button {
-  transform: scale(1);
-  transition: transform 0.3s ease;
-}
-
-.animated-button:hover {
-  transform: scale(1.1);
+#generated-website {
+  margin-top: 20px;
 }
 
 .hidden {
   display: none;
 }
 
-#website-info {
+#custom-site-container {
   margin-top: 20px;
+}
+
+textarea {
+  height: 100px;
 }
